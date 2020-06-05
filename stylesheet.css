@@ -1,0 +1,282 @@
+/* HEADER GRID */
+.header-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-right: 1%;
+    border-bottom: #242424;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1%;
+}
+.grid-item a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #242424;
+}
+.grid-item a:hover {
+    color: whitesmoke;
+}
+.grid-item h1 {
+    padding-left: 2%;
+    font-size: 45px;
+    margin: 0%;
+    padding-top: 5%;
+    font-family: sans-serif;
+}
+
+
+/* HEADER BUTTON */
+.header-contact-button {
+    border-style: solid;
+    border-color: #242424;
+    padding: 10px;
+    float: right;
+    padding-right: 9%;
+    padding-left: 9%;
+    margin-top: 77px;
+    background-color: cadetblue;
+    font-size: 20px;
+}
+
+
+
+/* NAVBAR */
+.navbar {
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #242424;
+}
+.navbar a:hover {
+    color: cadetblue;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .drop-btn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    font-family: sans-serif;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: #242424;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: sans-serif;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+
+
+/* SUBHEADER */
+.subheader {
+    background-color: lightgray;
+    padding: 1%;
+}
+
+
+
+
+/* FRONT PAGE IMAGE */
+.front-page-image {
+    background-image: url("mechanicalengineering.jpg");
+    background-size: cover;
+    border-style: solid;
+    border-right: none;
+    border-left: none;
+    margin: 0%;
+    border-color: #242424;
+    padding:0%;
+    background-color: whitesmoke;
+}
+.front-page-image h2 {
+    padding: 13%;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+/* BODY */
+body {
+    margin: 0%;
+    padding-bottom: 0%;
+    background-color: whitesmoke;
+}
+body p {
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+body h1, h2 {
+
+    font-family: sans-serif ;
+
+}
+
+
+
+/* FOOTER GRID */
+.footergrid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    font-family: sans-serif;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: #242424;
+}
+.footergriditem {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+
+
+
+
+/* FRONT PAGE SECTION 2 */
+.front-page-sec2 {
+    text-align: center;
+    color: #242424;
+    background-color: whitesmoke;
+}
+.front-page-sec2-grid {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    row-gap: 1%;
+    column-gap: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+
+}
+.front-page-sec2-grid-item {
+    border: solid;
+    border-color: #242424;
+    padding: 1%;
+    background-color: cadetblue;
+}
+.front-page-sec2 a {
+    text-decoration: none;
+    color: #242424;
+    font-size: x-large;
+    font-stretch: inherit;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: sans-serif;
+}
+.front-page-sec2 a:hover {
+    color: whitesmoke;
+}
+.front-page-sec2 h4 {
+    margin: 0%;
+    padding: 0%;
+}
+.front-page-sec2 p {
+    padding: 0%;
+    padding-top: 1%;
+    margin: 0%;
+}
+
+
+
+/* FRONT PAGE SECTION 3 */
+.front-page-sec3 {
+    background-color: #242424;
+    text-align: center; 
+    color: whitesmoke;
+}
+.front-page-sec3-grid {
+    padding-left: .5%;
+    padding-right: 3%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 2%;
+    padding-bottom: 3%;
+    
+}
+.front-page-sec3-grid-item {
+    text-align: center;
+    border: solid;
+    border-color: whitesmoke;
+    width: 85%;
+    height: 275px;
+}
+
+
+/* BEND TESTING */
+.bend-testing-img {
+    width: 70%;
+    height: 250px;
+    margin-left: 10%;
+    background-size: cover;
+}
+
+
+
+
+
+/* CONTACT US  */
+input {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 750px;
+    margin-left: 10%;
+    padding: 1%;
+}
+label {
+    padding-left: 10%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.test-grid {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+.right-grid-item {
+    background-color: darkslategray; 
+    padding-left: 5%; 
+    padding-right: 3%;
+    border:solid;
+    border-bottom:none;
+    border-right:none; 
+    border-top: none; 
+    border-left:#242424;
+}
+hr {
+    margin:0%;
+    padding: 0%;
+}
